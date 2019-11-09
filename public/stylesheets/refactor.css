@@ -1,0 +1,42 @@
+/* body{
+    background-color: red;
+} */
+.fa-twitter-square:before {
+    margin: 2px;
+    content: "\f081";
+}
+.btn-biger{
+    font-size: 17px;
+    margin: 10px;
+}
+textarea {
+  
+    margin: 3px;
+}
+input,select{
+  
+    margin: 4px 0;
+}
+.category-list>li,.autor-list>li {
+    color: black;
+  }
+  .category-list li:before,.autor-list li:before {
+    content: '\f006';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #0074D9;
+   
+  }
+  ul li {
+    list-style: none;
+}
+ ul li a {
+    color: #25262f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.blog-page .category-list ul li a{
+    margin-top: -5px;
+}
